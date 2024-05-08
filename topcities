@@ -1,0 +1,23 @@
+#Cities List
+citiesList = [
+    (3, "Miami"),
+    (1, "Orlando"),
+    (2, "Tampa"),
+    (0, "Jacksonville"),
+    (4, "Fort Lauderdale"),
+    (9, "Tallahassee"),
+    (6, "St. Petersburg"),
+    (7, "Hialeah"),
+    (8, "Port St. Lucie"),
+    (5, "Fort Myers")
+]
+
+#Sort cities
+citiesList.sort(key=lambda city: city[0])
+
+#Get top 5 cities
+topCities = [city[1] for city in citiesList[:5]]
+
+#print top cities using for loop
+for city in topCities:
+    print(city)
