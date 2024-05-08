@@ -4,12 +4,12 @@ citiesList = [
     (1, "Orlando"),
     (2, "Tampa"),
     (0, "Jacksonville"),
-    (4, "Fort Lauderdale"),
+    (5, "Fort Lauderdale"),
     (9, "Tallahassee"),
     (6, "St. Petersburg"),
     (7, "Hialeah"),
     (8, "Port St. Lucie"),
-    (5, "Fort Myers")
+    (4, "Fort Myers")
 ]
 
 #Sort cities
