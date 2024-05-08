@@ -27,7 +27,7 @@ def index():
 
 @app.route('/store', methods=['GET', 'POST'])
 def store():
-    return render_template('store/index.html')
+    return render_template('store/store.html')
 
 
 if __name__ == '__main__':

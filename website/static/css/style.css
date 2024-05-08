@@ -1,5 +1,4 @@
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -40,4 +39,29 @@ input[type="text"],
 
     button[type="submit"]:hover {
         background-color: #45a049;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; /* Adjust top margin as needed */
+    }
+    
+    .thumbnail {
+        margin: 0 10px; /* Adjust spacing between thumbnails */
+    }
+    
+    .thumbnail img {
+        width: 300px; /* Adjust thumbnail width */
+        height: 200px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .t-heading {
+        width: 300px; /* Adjust width as needed */
+        padding: 20px;
+        margin: auto;
+        text-align: center;
     }
