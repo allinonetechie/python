@@ -12,8 +12,20 @@ citiesList = [
     (4, "Fort Myers")
 ]
 
+
+# Printing each city before sort
+print("List before Sort: \n")
+for index, city in citiesList:
+    print(f"City {index}: {city}")
+    
+print("\n")
 #Sort cities
 citiesList.sort(key=lambda city: city[0])
+
+#Print after sort
+print("List After Sort: \n")
+for index, city in citiesList:
+    print(f"City {index}: {city}")
 
 #Get top 5 cities
 topCities = [city[1] for city in citiesList[:5]]
