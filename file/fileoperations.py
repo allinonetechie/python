@@ -31,3 +31,13 @@ print(f.read())
 print('\n')
 
 os.remove("/Users/waqasahmed/Github Repo/python/python/file/demofile3.txt")
+print('\n')
+
+#file exist condition to delete
+
+fileName = "demoFile.txt"
+
+if os.path.exists(f"/Users/waqasahmed/Github Repo/python/python/file/{fileName}"):
+  os.remove("/Users/waqasahmed/Github Repo/python/python/file/demofile.txt")
+else:
+  print(f"The {fileName} does not exist")
